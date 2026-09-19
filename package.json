@@ -1,6 +1,6 @@
 {
   "name": "pi-enqueued-reload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Let Pi finish its work before reloading.",
   "type": "module",
   "license": "MIT",

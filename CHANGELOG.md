@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-09-19
+
+- Include the README in npm metadata so package pages can show it.
+
 ## 0.1.0 - 2026-09-19
 
 - Let `/reload` wait for Pi to finish its work.
