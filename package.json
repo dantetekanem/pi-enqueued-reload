@@ -1,0 +1,21 @@
+{
+  "name": "pi-enqueued-reload",
+  "version": "0.1.0",
+  "description": "Let Pi finish its work before reloading.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Leonardo Pereira",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantetekanem/pi-enqueued-reload.git"
+  },
+  "homepage": "https://github.com/dantetekanem/pi-enqueued-reload#readme",
+  "bugs": "https://github.com/dantetekanem/pi-enqueued-reload/issues",
+  "keywords": ["pi-package", "pi-extension", "reload"],
+  "files": ["pi-enqueued-reload.ts", "README.md", "CHANGELOG.md", "LICENSE"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "pi": { "extensions": ["./pi-enqueued-reload.ts"] },
+  "scripts": { "test": "node --test pi-enqueued-reload.test.ts" },
+  "engines": { "node": ">=22.18.0" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" }
+}
